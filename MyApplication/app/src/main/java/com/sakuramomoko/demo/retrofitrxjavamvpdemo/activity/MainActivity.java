@@ -1,7 +1,9 @@
-package com.sakuramomoko.demo.retrofitrxjavamvpdemo;
+package com.sakuramomoko.demo.retrofitrxjavamvpdemo.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.sakuramomoko.demo.retrofitrxjavamvpdemo.R;
 
 public class MainActivity extends AppCompatActivity {
 
