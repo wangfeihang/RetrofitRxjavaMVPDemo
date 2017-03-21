@@ -18,8 +18,8 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements ThemesMvpView {
 
-    @BindView(R.id.tv_content)
-    TextView tvContent;
+    @BindView(R.id.tv_themes_size)
+    TextView tvThemesSize;
 
     private ThemeListPresenter themeListPresenter;
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements ThemesMvpView {
 
     @Override
     public void loadThemes(List<ThemeList.Theme> themes) {
-        tvContent.setText(FP.size(themes) + "");
+        tvThemesSize.setText(FP.size(themes) + "");
     }
 
     @Override
