@@ -15,7 +15,7 @@ public class ThemeList {
 
     private int limit;
     private List<?> subscribed;
-    private List<OthersBean> others;
+    private List<Theme> others;
 
     public int getLimit() {
         return limit;
@@ -33,15 +33,15 @@ public class ThemeList {
         this.subscribed = subscribed;
     }
 
-    public List<OthersBean> getOthers() {
+    public List<Theme> getOthers() {
         return others;
     }
 
-    public void setOthers(List<OthersBean> others) {
+    public void setOthers(List<Theme> others) {
         this.others = others;
     }
 
-    public static class OthersBean {
+    public static class Theme {
         /**
          * color : 8307764
          * thumbnail : http://pic4.zhimg.com/2c38a96e84b5cc8331a901920a87ea71.jpg

@@ -17,7 +17,7 @@ public class BasePresenter<V extends MvpView> implements Presenter<V> {
 
     private static final String TAG = "BasePresenter";
 
-    protected Context mContext= MyApplication.APP_CONTEXT;
+    protected Context mContext = MyApplication.APP_CONTEXT;
     private V mMvpView;
     private boolean mIsAttachViewMethodCalled = false;
     private CompositeSubscription mCompositeSubscription;
